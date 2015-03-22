@@ -20,3 +20,30 @@ add repository config into your maven project pom.xml.
     </repository>
 </repositories>
 ```
+
+The repository contains following artifacts:
+```xml
+<dependency>
+	<groupId>com.lowagie</groupId>
+	<artifactId>itext</artifactId>
+	<version>2.1.7</version>
+</dependency>
+
+<dependency>
+	<groupId>org.olap4j</groupId>
+	<artifactId>olap4j</artifactId>
+	<version>0.9.7.309-JS-3</version>
+</dependency>
+
+<dependency>
+    <groupId>org.v66</groupId>
+    <artifactId>qrhelper</artifactId>
+    <version>0.1.1</version>
+</dependency>
+
+<dependency>
+	<groupId>weibo</groupId>
+	<artifactId>weibo4j-oauth2</artifactId>
+	<version>beta3.1.1</version>
+</dependency>
+```
